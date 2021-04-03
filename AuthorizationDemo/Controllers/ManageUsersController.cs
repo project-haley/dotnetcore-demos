@@ -11,6 +11,8 @@ using System.Threading.Tasks;
 namespace AuthorizationDemo.Controllers
 {
     [Authorize(Roles = "Administrator")]
+
+    //test change for git 
     public class ManageUsersController : Controller
     {
         private readonly UserManager<ApplicationUser>
